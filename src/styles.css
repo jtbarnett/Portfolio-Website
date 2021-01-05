@@ -1,1 +1,51 @@
 /* You can add global styles to this file, and also import other style files */
+
+/*
+    dark grey
+    #222629
+    medium
+    #474b4f
+
+    dodger blue
+    #1C86EE
+
+    midnight blue
+    #2F2F4F	
+
+    blue velvet
+    #162252
+
+    sign blue
+    #003F87
+
+
+
+
+    lighter black
+    #0e1111
+
+    light grey
+    #6b6e70
+
+    #EEEEEE
+    #ffffff
+    #f1f1f1
+*/
+
+* {
+    font-family: 'Cairo', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background: #EEEEEE;
+}
+
+.container {
+    min-height: calc(100vh - 60px);
+    margin-top: 60px;
+}

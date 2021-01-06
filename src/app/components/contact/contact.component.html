@@ -1,21 +1,28 @@
 <div class="main-container">
-    <div class="header">
-        <div class="header-left" routerLink="">
-            Jacob Barnett
+    <div class="nav">
+        <div class="pill" routerLink="">
+            Home
         </div>
-        <div class="header-right">
-            <div class="item" routerLink="">
-                About me
-            </div>
-            <div class="item" routerLink="">
-                Projects
-            </div>
-            <div class="item" routerLink="">
-                Contact
-            </div>
+        <div class="pill" routerLink="/about-me">
+            About Me
+        </div>
+        <div class="pill" routerLink="/experience">
+            Experience
+        </div>
+        <div class="pill" routerLink="/projects">
+            Projects
         </div>
     </div>
-    <div class="body">
 
+    <div class="content">
+        <div class="contact-me">
+            <iframe class="google-form" src="https://docs.google.com/forms/d/e/1FAIpQLSctFGMhMEz6aMvWYDNTrGE5fJtsjDKb59RpbVyUBvNOH5L-pA/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+        <div class="icon-container">
+            <i class="fab fa-linkedin fa-3x b1" (click)="navLinkedIn()"></i>
+            <i class="fab fa-github fa-3x b1" (click)="navGitHub()"></i>
+            <i class="fab fa-instagram fa-3x b1" (click)="navInstagram()"></i>
+            <i class="fab fa-facebook-square fa-3x b1" (click)="navFacebook()"></i>
+        </div>
     </div>
 </div>

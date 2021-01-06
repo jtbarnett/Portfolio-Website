@@ -12,13 +12,6 @@ export class DashboardComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  /*
-  https://www.linkedin.com/in/jacob-barnett-721bba149/
-  https://github.com/jtbarnett
-  https://www.instagram.com/jake_barnett6/
-  https://www.facebook.com/profile.php?id=100011372829528
-  */
-
   navLinkedIn() {
     window.open('https://www.linkedin.com/in/jacob-barnett-721bba149/', '_blank');
   }

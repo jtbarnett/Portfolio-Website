@@ -1,12 +1,13 @@
 <div class="main-container">
     <div class="body">
-        <div class="card-container">
-            <div class="card card-left card1-5">
+        <div class="card-container top">
+            <div class="card card1-5">
                 <div class="card-header">
                     Jacob Barnett
                 </div>
+                <img class="photo" src="/assets/img/jakepic.PNG" alt="">
                 <div class="card-text">
-                    I am a young software developer that loves to eat and create things. I am very passionate about eveything I do.
+                    Senior at the University of Toledo studying Computer Science. My expected graduation date is May 8th, 2021.
                 </div>
             </div>
             <div class="card card-mid card1-5">
@@ -14,21 +15,23 @@
                     About Me
                 </div>
                 <div class="card-text">
-                    I am a young software developer that loves to eat and create things. I am very passionate about eveything I do.
+                    I am a young software developer that loves to be creative and learn. I am very passionate about my work and strive to improve myself. Please click the link below to learn more about who I am and what I do.
                 </div>
+                <i class="fas fa-external-link-alt fa-2x font-awesome-link" routerLink="/about-me"></i>
             </div>
-            <div class="card card-right card1-5">
+            <div class="card card1-5">
                 <div class="card-header">
                     Experience
                 </div>
                 <div class="card-text">
-                    I am a young software developer that loves to eat and create things. I am very passionate about eveything I do.
+                    I have 15 months of industry experience, 6 months as a Systems Engineer with Emerson, and 9 months as a Software Engineer with Crown Equipment Corporation. Click the link below to see details about my experience!
                 </div>
+                <i class="fas fa-external-link-alt fa-2x font-awesome-link" routerLink="/experience"></i>
             </div>
         </div>
 
         <div class="card-container">
-            <div class="card card-left card1-5">
+            <div class="card card1-5">
                 <div class="card-header">
                     Projects
                 </div>
@@ -42,15 +45,16 @@
                     Contact
                 </div>
                 <div class="card-text">
-                    I am a young software developer that loves to eat and create things. I am very passionate about eveything I do.
+                    If for any reason you want to contact me, either for business, employment inquiries, or just to say hi, please click the link below. I will try my best to respond in a timely manner to anyone that reaches out.
                 </div>
+                <i class="fas fa-external-link-alt fa-2x font-awesome-link" routerLink="/contact"></i>
             </div>
-            <div class="card card-right card6">
+            <div class="card card6">
                 <div class="card6-left">
-                    <i class="fab fa-linkedin fa-3x"></i>
-                    <i class="fab fa-github fa-3x"></i>
-                    <i class="fab fa-instagram fa-3x"></i>
-                    <i class="fab fa-facebook-square fa-3x"></i>
+                    <i class="fab fa-linkedin fa-3x b"></i>
+                    <i class="fab fa-github fa-3x b"></i>
+                    <i class="fab fa-instagram fa-3x b"></i>
+                    <i class="fab fa-facebook-square fa-3x b"></i>
                 </div>
                 <div class="card6-right">
                     <div class="links" (click)="navLinkedIn()">
@@ -66,6 +70,36 @@
                         facebook.com/profile
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="body1">
+        <div class="body1-header">
+            Jacob Barnett
+        </div>
+
+        <div class="body1-bot">
+            <div class="pill-container">
+                <div class="pill" routerLink="/about-me">
+                    About Me
+                </div>
+                <div class="pill" routerLink="/experience">
+                    Experience
+                </div>
+                <div class="pill" routerLink="/projects">
+                    Projects
+                </div>
+                <div class="pill" routerLink="/contact">
+                    Contact
+                </div>
+            </div>
+
+            <div class="icon-container">
+                <i class="fab fa-linkedin fa-3x b1" (click)="navLinkedIn()"></i>
+                <i class="fab fa-github fa-3x b1" (click)="navGitHub()"></i>
+                <i class="fab fa-instagram fa-3x b1" (click)="navInstagram()"></i>
+                <i class="fab fa-facebook-square fa-3x b1" (click)="navFacebook()"></i>
             </div>
         </div>
     </div>

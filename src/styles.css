@@ -6,30 +6,14 @@
     medium
     #474b4f
 
-    dodger blue
-    #1C86EE
-
-    midnight blue
-    #2F2F4F	
-
-    blue velvet
-    #162252
-
-    sign blue
-    #003F87
-
-
-
-
     lighter black
     #0e1111
 
-    light grey
-    #6b6e70
+    white
+    #f5f5f5
 
-    #EEEEEE
-    #ffffff
-    #f1f1f1
+    dark
+    #313133
 */
 
 * {
@@ -42,10 +26,5 @@ html, body {
     margin: 0;
     padding: 0;
     overflow: auto;
-    background: #EEEEEE;
-}
-
-.container {
-    min-height: calc(100vh - 60px);
-    margin-top: 60px;
+    background: #f5f5f5;
 }

@@ -5,12 +5,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    background-image: url(../../../assets/img/abstract.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    cursor: default;
 }
 
 .nav {
@@ -18,7 +12,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .pill {
@@ -56,30 +50,11 @@
 
 .content {
     height: 100%;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-}
-
-.b1 {
-    color: #181819;
-    margin: 0 10px;
-    cursor: pointer;
-    transition: all .2s ease-in-out;
-}
-
-.b1:hover {
-    color: #f5f5f5;
-    transform: scale(1.1);
-}
-
-.icon-container {
-    margin-bottom: 10px;
-}
-
-.contact-me {
-    margin-top: 20px;
 }
 
 .google-form {
@@ -88,16 +63,12 @@
 }
 
 @media(max-width: 570px) {
-    .nav {
-        margin-top: 20px;
-    }
-
     .pill {
         font-size: 14px;
         margin: 0 4px;
     }
 
-    .contact-me {
+    .content {
         margin-top: 0px;
     }
 

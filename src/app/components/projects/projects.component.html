@@ -1,1 +1,52 @@
-<p>projects works!</p>
+<div class="main-container">
+    <div class="nav">
+        <div class="pill" routerLink="">
+            Home
+        </div>
+        <div class="pill" routerLink="/about-me">
+            About Me
+        </div>
+        <div class="pill" routerLink="/experience">
+            Experience
+        </div>
+        <div class="pill" routerLink="/contact">
+            Contact
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="content-body">
+            <div class="body" *ngFor="let project of list">
+                <div class="header">
+                    <div class="title">{{ project.title }}</div>
+                    <div class="sub-title">{{ project.date }}</div>
+                    <div class="row sub-title">
+                        <div class="row-text">{{ project.gitLink }}</div>
+                        <i class="fas fa-external-link-alt" (click)="navWeb(project?.gitLink)"></i>
+                    </div>
+                    <div class="row sub-title" *ngIf="project.hasLink">
+                        <div class="row-text">{{ project.projectLink }}</div>
+                        <i class="fas fa-external-link-alt" (click)="navWeb(project?.projectLink)"></i>
+                    </div>
+                </div>
+
+                <div class="description-container">
+                    <div class="description">
+                        Description:
+                    </div>
+                    <div class="description-text">
+                        {{ project.description }}
+                    </div>
+                </div>
+
+                <div>
+                    <div class="tools">Tools used:</div>
+                    <div class="row tools-margin">
+                        <div class="tool-pill" *ngFor="let tool of project.tools">{{ tool }}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <app-icons></app-icons>
+    </div>
+</div>

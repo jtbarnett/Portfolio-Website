@@ -9,6 +9,7 @@ import { PageNotFoundComponent } from './components/page-not-found/page-not-foun
 import { ProjectsComponent } from './components/projects/projects.component';
 import { AboutMeComponent } from './components/about-me/about-me.component';
 import { ExperienceComponent } from './components/experience/experience.component';
+import { IconsComponent } from './components/icons/icons.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ExperienceComponent } from './components/experience/experience.componen
     PageNotFoundComponent,
     ProjectsComponent,
     AboutMeComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    IconsComponent
   ],
   imports: [
     BrowserModule,

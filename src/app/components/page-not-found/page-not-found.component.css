@@ -5,11 +5,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    background-image: url(../../../assets/img/abstract.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
     cursor: default;
 }
 
@@ -18,7 +13,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .pill {
@@ -69,22 +64,6 @@
     justify-content: space-between;
 }
 
-.b1 {
-    color: #181819;
-    margin: 0 10px;
-    cursor: pointer;
-    transition: all .2s ease-in-out;
-}
-
-.b1:hover {
-    color: #f5f5f5;
-    transform: scale(1.1);
-}
-
-.icon-container {
-    margin-bottom: 10px;
-}
-
 @media(max-width: 664px) {
     .message {
         margin-top: 300px;
@@ -104,7 +83,6 @@
     }
 
     .nav {
-        margin-top: 20px;
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;

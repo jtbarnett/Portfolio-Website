@@ -28,4 +28,10 @@ html, body {
     padding: 0;
     overflow: auto;
     background: #f5f5f5;
+    background-image: url(/assets/img/abstract.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    cursor: default;
 }

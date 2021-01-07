@@ -72,7 +72,7 @@
 
 .body {
     width: 620px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -110,7 +110,7 @@
 .fas {
     color: #313133;
     margin-left: 2px;
-    margin-top: 8px;
+    margin-top: 10px;
     cursor: pointer;
 }
 
@@ -173,6 +173,15 @@
     border-radius: 10px;
 }
 
+hr {
+    display: block;
+    border-width: 1px;
+    border-style: solid;
+    color: #313133;
+    width: 620px;
+    margin-top: 40px;
+}
+
 @media(max-width: 720px) {
     .content-body {
         width: 500px;
@@ -180,6 +189,10 @@
     }
 
     .body {
+        width: 400px;
+    }
+
+    hr {
         width: 400px;
     }
 
@@ -198,6 +211,7 @@
 
     .fas {
         margin-left: 0px;
+        margin-top: 8px;
     }
 
     .tool-pill {
@@ -224,6 +238,10 @@
     }
 
     .body {
+        width: 340px;
+    }
+
+    hr {
         width: 340px;
     }
 
@@ -265,6 +283,10 @@
     }
 
     .body {
+        width: 300px;
+    }
+
+    hr {
         width: 300px;
     }
 

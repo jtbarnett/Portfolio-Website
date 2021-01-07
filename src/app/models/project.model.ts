@@ -6,4 +6,5 @@ export interface project {
     projectLink?: string;
     description: string;
     tools: string[];
+    notLast?: boolean;
 }

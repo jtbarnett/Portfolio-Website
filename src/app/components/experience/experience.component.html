@@ -40,6 +40,9 @@
                         <div class="tool-pill" *ngFor="let tool of exp.tools">{{ tool }}</div>
                     </div>
                 </div>
+
+                <hr *ngIf="exp.notLast">
+
             </div>
         </div>
         <app-icons></app-icons>

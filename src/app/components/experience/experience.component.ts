@@ -19,7 +19,8 @@ export class ExperienceComponent implements OnInit {
     string4: "• Configured build options for project deployment and conducted CI/CD",
     tools: [
       "Angular", "Node.js", "Express.js", "HTML5", "CSS3", "TypeScript", "JavaScript", "Jenkins", "Maven", "Jira", "Confluence", "Bitbucket", "Git", "VS Code"
-    ]
+    ],
+    notLast: true
   };
 
   public exp2: experience = {
@@ -33,7 +34,8 @@ export class ExperienceComponent implements OnInit {
     string4: "• Reviewed UI designs and created documents showing proper implementation",
     tools: [
       "Angular", "HTML5", "CSS3", "TypeScript", "JavaScript", "Jira", "Confluence", "Bitbucket", "Git", "Elasticsearch", "Kibana", "VS Code"
-    ]
+    ],
+    notLast: true
   };
 
   public exp3: experience = {
@@ -47,7 +49,8 @@ export class ExperienceComponent implements OnInit {
     string4: "• Constructed presentations on team projects to present to engineering groups",
     tools: [
       "Python", "Visual Basic", "Oracle", "Teamcenter", "Excel", "Word", "PowerPoint", "Outlook"
-    ]
+    ],
+    notLast: true
   };
 
   public exp4: experience = {

@@ -45,6 +45,9 @@
                         <div class="tool-pill" *ngFor="let tool of project.tools">{{ tool }}</div>
                     </div>
                 </div>
+
+                <hr *ngIf="project.notLast">
+
             </div>
         </div>
         <app-icons></app-icons>

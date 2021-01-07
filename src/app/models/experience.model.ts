@@ -8,4 +8,5 @@ export interface experience {
     string3: string;
     string4: string;
     tools?: string[];
+    notLast?: boolean;
 }

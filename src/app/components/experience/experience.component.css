@@ -72,7 +72,7 @@
 
 .body {
     width: 620px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -150,8 +150,6 @@
     transform: translateY(3px);
 }
 
-
-
 /* width */
 ::-webkit-scrollbar {
     width: 16px;
@@ -170,6 +168,15 @@
     border-radius: 10px;
 }
 
+hr {
+    display: block;
+    border-width: 1px;
+    border-style: solid;
+    color: #313133;
+    width: 620px;
+    margin-top: 40px;
+}
+
 @media(max-width: 720px) {
     .content-body {
         width: 500px;
@@ -177,6 +184,10 @@
     }
 
     .body {
+        width: 400px;
+    }
+
+    hr {
         width: 400px;
     }
 
@@ -212,6 +223,10 @@
         width: 340px;
     }
 
+    hr {
+        width: 340px;
+    }
+
     .title {
         font-size: 26px;
     }
@@ -241,6 +256,10 @@
     }
 
     .body {
+        width: 300px;
+    }
+
+    hr {
         width: 300px;
     }
 

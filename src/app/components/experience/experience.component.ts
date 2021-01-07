@@ -31,7 +31,7 @@ export class ExperienceComponent implements OnInit {
     string1: "• Developed service dashboard application with Angular/TypeScript",
     string2: "• Interfaced with REST API frameworks using JSON and Angular",
     string3: "• Reviewed developer code and managed repositories with Jira and Bitbucket",
-    string4: "• Reviewed UI designs and created documents showing proper implementation",
+    string4: "• Performed UI/UX quality assurance reviews and wrote markdowns",
     tools: [
       "Angular", "HTML5", "CSS3", "TypeScript", "JavaScript", "Jira", "Confluence", "Bitbucket", "Git", "Elasticsearch", "Kibana", "VS Code"
     ],
@@ -44,7 +44,7 @@ export class ExperienceComponent implements OnInit {
     date: "January 2018 - June 2018",
     location: "Sidney, Ohio, United States",
     string1: "• Wrote Visual Basic and Python code to automate engineering processes",
-    string2: "• Implemented mathematical calculations in Teamcenter with Oracle",
+    string2: "• Added test data to Oracle database with Oracle SQL Developer",
     string3: "• Utilized Minitab to analyze New Product Development testing",
     string4: "• Constructed presentations on team projects to present to engineering groups",
     tools: [

@@ -50,7 +50,6 @@
 }
 
 .message {
-    margin-top: 260px;
     color: #f5f5f5;
     font-size: 130px;
     font-weight: bold;
@@ -66,7 +65,6 @@
 
 @media(max-width: 664px) {
     .message {
-        margin-top: 300px;
         font-size: 100px;
     }
 
@@ -78,7 +76,6 @@
 
 @media(max-width: 500px) {
     .message {
-        margin-top: 150px;
         font-size: 50px;
     }
 

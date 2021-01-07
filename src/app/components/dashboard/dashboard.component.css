@@ -280,3 +280,62 @@
         width: 250px;
     }
 }
+
+@media(max-height: 780px) {
+    .card {
+        width: 280px;
+        height: 264px;
+    }
+
+    .top {
+        margin-bottom: 40px;
+    }
+
+    .card-mid {
+        margin: 0 40px;
+    }
+
+    .card-header {
+        margin-top: 8px;
+        padding: 0 15px;
+        font-size: 18px;
+        transform: translateY(110px);
+    }
+    
+    .card-text {
+        padding: 4px 10px;
+        font-size: 15px;
+        font-weight: bold;
+        transform: translateY(220px);
+    }
+    
+    .photo {
+        margin-top: 8px;
+        width: 100px;
+        height: 100px;
+        transform: translateX(250px);
+    }
+
+    .font-awesome-link {
+        margin-top: 2px;
+        transform: translateY(220px);
+    }
+
+    .card6-left {
+        margin-left: 10px;
+        transform: translateX(110px);
+    }
+
+    .card6-right {
+        transform: translateX(250px);
+        margin-left: 12px;
+    }
+
+    .links {
+        margin: 20px 0;
+        padding: 0 8px;
+        border-radius: 25px;
+        text-align: left;
+        font-size: 14px;
+    }
+}

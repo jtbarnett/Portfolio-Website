@@ -49,6 +49,14 @@
     box-shadow: 0 0 10px 2px rgba(33, 33, 33, .9);
 }
 
+.b {
+    font-weight:bolder
+}
+
+.a {
+    font-weight:lighter;
+}
+
 .content {
     height: 100%;
     margin-top: 20px;
@@ -94,14 +102,6 @@
 .sub-title {
     margin-top: -14px;
     font-size: 22px;
-}
-
-.b {
-    font-weight:bolder
-}
-
-.a {
-    font-weight:lighter;
 }
 
 .skills {
@@ -282,5 +282,43 @@ hr {
     .pill {
         font-size: 12px;
         padding: 0 12px;
+    }
+}
+
+@media(max-height: 900px) {
+    .content-body {
+        height: 650px;
+    }
+    
+    .title {
+        font-size: 30px;
+    }
+    
+    .sub-title {
+        font-size: 20px;
+    }
+    
+    .skill-list {
+        font-size: 16px;
+    }
+    
+    .tools {
+        font-size: 16px;
+    }
+    
+    .tool-pill {
+        font-size: 14px;
+    }
+}
+
+@media(max-height: 800px) {
+    .content-body {
+        height: 550px;
+    }
+}
+
+@media(max-height: 700px) {
+    .content-body {
+        height: 500px;
     }
 }

@@ -59,7 +59,7 @@
 
 .google-form {
     width: 572px;
-    height: 791px;
+    height: 719px;
     opacity: .8;
     margin-bottom: 10px;
 }
@@ -88,5 +88,11 @@
     .google-form {
         width: 330px;
         height: 783px;
+    }
+}
+
+@media(max-height: 880px) {
+    .google-form {
+        height: 650px;
     }
 }

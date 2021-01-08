@@ -18,9 +18,10 @@ export class ExperienceComponent implements OnInit {
     string3: "• Wrote and implemented Unit and Integration Tests for software modules",
     string4: "• Configured build options for project deployment and conducted CI/CD",
     tools: [
-      "Angular", "Node.js", "Express.js", "HTML5", "CSS3", "TypeScript", "JavaScript", "Jenkins", "Maven", "Jira", "Confluence", "Bitbucket", "Git", "VS Code"
+      "Angular", "Node.js", "Express.js", "HTML5", "CSS3", "TypeScript", "JavaScript", "Jenkins", "Maven", "Bamboo","Jira", "Confluence", "Bitbucket", "Git", "VS Code"
     ],
-    notLast: true
+    notLast: true,
+    photo: "/assets/img/crown.PNG"
   };
 
   public exp2: experience = {
@@ -35,7 +36,8 @@ export class ExperienceComponent implements OnInit {
     tools: [
       "Angular", "HTML5", "CSS3", "TypeScript", "JavaScript", "Jira", "Confluence", "Bitbucket", "Git", "Elasticsearch", "Kibana", "VS Code"
     ],
-    notLast: true
+    notLast: true,
+    photo: "/assets/img/crown.PNG"
   };
 
   public exp3: experience = {
@@ -50,7 +52,8 @@ export class ExperienceComponent implements OnInit {
     tools: [
       "Python", "Visual Basic", "Oracle", "Teamcenter", "Excel", "Word", "PowerPoint", "Outlook"
     ],
-    notLast: true
+    notLast: true,
+    photo: "/assets/img/emerson.PNG"
   };
 
   public exp4: experience = {
@@ -64,7 +67,9 @@ export class ExperienceComponent implements OnInit {
     string4: "• Kept records of all transactions and deposited profits at local banks",
     tools: [
       "None"
-    ]
+    ],
+    notLast: false,
+    photo: "/assets/img/subway.PNG"
   };
 
   public list: experience[] = [

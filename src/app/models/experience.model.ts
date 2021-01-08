@@ -9,4 +9,5 @@ export interface experience {
     string4: string;
     tools?: string[];
     notLast?: boolean;
+    photo: string;
 }

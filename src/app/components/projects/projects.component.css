@@ -112,6 +112,13 @@
     font-size: 18px;
 }
 
+.image {
+    margin-top: 5px;
+    width: 620px;
+    height: 420px;
+    border-radius: 10px;
+}
+
 hr {
     display: block;
     border-width: 1px;
@@ -134,12 +141,17 @@ hr {
         width: 400px;
     }
 
+    .image {
+        width: 400px;
+        height: 271px;
+    }
+
     hr {
         width: 400px;
     }
 
     .title {
-        font-size: 24px;
+        font-size: 28px;
     }
 
     .sub-title {
@@ -183,13 +195,18 @@ hr {
         margin-bottom: 10px;
     }
 
+    .image {
+        width: 340px;
+        height: 230px;
+    }
+
     hr {
         width: 340px;
         margin-top: 30px;
     }
 
     .title {
-        font-size: 22px;
+        font-size: 24px;
     }
 
     .sub-title {
@@ -231,8 +248,17 @@ hr {
         width: 280px;
     }
 
+    .image {
+        width: 280px;
+        height: 190px;
+    }
+
     hr {
         width: 280px;
+    }
+
+    .title {
+        font-size: 22px;
     }
 
     .sub-title {

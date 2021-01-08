@@ -8,6 +8,14 @@
     color: #313133;
 }
 
+.photo {
+    margin-top: 6px;
+    margin-left: 10px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
 .b {
     font-weight:bolder
 }
@@ -28,6 +36,7 @@
 .content-body {
     width: 720px;
     height: fit-content;
+    padding-top: 10px;
     margin-bottom: 40px;
     border-radius: 10px;
     background-color:rgba(245, 245, 245, .8);
@@ -135,8 +144,13 @@ hr {
         width: 400px;
     }
 
+    .photo {
+        width: 42px;
+        height: 42px;
+    }
+
     .title {
-        font-size: 24px;
+        font-size: 28px;
     }
 
     .sub-title {
@@ -160,6 +174,7 @@ hr {
 @media(max-width: 550px) {
     .content-body {
         width: 400px;
+        padding-top: 5px;
     }
 
     .body {
@@ -172,8 +187,14 @@ hr {
         margin-top: 30px;
     }
 
+    .photo {
+        margin-left: 8px;
+        width: 36px;
+        height: 36px;
+    }
+
     .title {
-        font-size: 22px;
+        font-size: 24px;
     }
 
     .sub-title {
@@ -204,6 +225,17 @@ hr {
 
     hr {
         width: 280px;
+    }
+
+    .photo {
+        margin-top: 4px;
+        margin-left: 8px;
+        width: 36px;
+        height: 36px;
+    }
+
+    .title {
+        font-size: 22px;
     }
 
     .sub-title {

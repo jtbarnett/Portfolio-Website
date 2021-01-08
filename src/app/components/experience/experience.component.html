@@ -5,7 +5,10 @@
         <div class="content-body">
             <div class="body" *ngFor="let exp of list">
                 <div class="header">
-                    <div class="title">{{ exp.jobTitle }}</div>
+                    <div class="row">
+                        <div class="title">{{ exp.jobTitle }}</div>
+                        <img class="photo" src="{{ exp.photo }}" alt="">
+                    </div>
                     <div class="sub-title b">{{ exp.company }}</div>
                     <div class="sub-title a">{{ exp.date }}</div>
                     <div class="row">

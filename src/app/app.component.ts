@@ -27,6 +27,8 @@ export class AppComponent implements OnInit {
         })
       ).subscribe((ttl: string) => {
         this.titleService.setTitle(ttl);
+        // make sure to scroll to top of page on each route change
+        document.body.scrollTop = document.documentElement.scrollTop = 0;
       });
   }
 }

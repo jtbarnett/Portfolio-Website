@@ -19,6 +19,7 @@
 
 .content-body {
     width: 720px;
+    padding-top: 5px;
     height: fit-content;
     margin-bottom: 40px;
     padding-bottom: 25px;
@@ -93,7 +94,7 @@
     }
 
     .big-text {
-        font-size: 24px;
+        font-size: 28px;
     }
 
     .med-text {
@@ -126,7 +127,7 @@
     }
 
     .big-text {
-        font-size: 22px;
+        font-size: 24px;
     }
 
     .med-text {
@@ -135,6 +136,10 @@
 
     .icon-text {
         font-size: 14px;
+    }
+
+    .fas {
+        margin-right: 7px;
     }
 }
 
@@ -145,6 +150,10 @@
 
     .body1 {
         width: 280px;
+    }
+
+    .big-text {
+        font-size: 22px;
     }
 
     .med-text {
@@ -159,5 +168,9 @@
 
     .body-text {
         font-size: 14px;
+    }
+
+    .fas {
+        margin-right: 5px;
     }
 }

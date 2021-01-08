@@ -33,6 +33,11 @@
                     </div>
                 </div>
 
+                <div *ngIf="project.hasImage">
+                    <div class="tools">Image:</div>
+                    <img class="image" src="{{ project.image }}" alt="">
+                </div>
+
                 <hr *ngIf="project.notLast">
 
             </div>

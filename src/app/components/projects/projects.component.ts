@@ -18,11 +18,13 @@ export class ProjectsComponent implements OnInit {
     tools: [
       "Angular", "Node.js", "HTML5", "CSS3", "TypeScript", "JavaScript", "Git", "GitHub", "VS Code", "Karma", "PayPal APIs"
     ],
-    notLast: true
+    notLast: true,
+    hasImage: true,
+    image: "/assets/img/realtor1.PNG"
   };
 
   public project2: project = {
-    title: "Java Minesweeper Game and GUI",
+    title: "Java Minesweeper Game",
     date: "October 2020 - December 2020",
     gitLink: "github.com/jtbarnett/Java-Minesweeper",
     hasLink: false,
@@ -30,7 +32,9 @@ export class ProjectsComponent implements OnInit {
     tools: [
       "Java", "JDK", "Eclipse", "JavaFX", "JFrame", "JPanel", "Swing", "Git", "GitHub"
     ],
-    notLast: true
+    notLast: true,
+    hasImage: true,
+    image: "/assets/img/minesweeper.png"
   };
 
   public project3: project = {
@@ -42,7 +46,9 @@ export class ProjectsComponent implements OnInit {
     tools: [
       "Python", "Pygame", "VS Code", "Git", "GitHub"
     ],
-    notLast: true
+    notLast: true,
+    hasImage: true,
+    image: "/assets/img/snake.png"
   };
 
   public project4: project = {
@@ -54,11 +60,12 @@ export class ProjectsComponent implements OnInit {
     tools: [
       "Python", "Docker", "VS Code", "Git", "GitHub"
     ],
-    notLast: true
+    notLast: true,
+    hasImage: false
   };
 
   public project5: project = {
-    title: "C++ and OpenGL Texture Mapping",
+    title: "C++/OpenGL Texture Mapping",
     date: "October 2020 - December 2020",
     gitLink: "github.com/jtbarnett/EECS4530",
     hasLink: false,
@@ -66,11 +73,13 @@ export class ProjectsComponent implements OnInit {
     tools: [
       "C++", "OpenGL", "FreeGLUT", "GLEW", "Visual Studio", "Git", "GitHub"
     ],
-    notLast: true
+    notLast: true,
+    hasImage: true,
+    image: "/assets/img/texture.png"
   };
 
   public project6: project = {
-    title: "Python/Docker/FastAPI Web App",
+    title: "Docker/FastAPI Web App",
     date: "December 2020 - January 2021",
     gitLink: "github.com/jtbarnett/Docker-FastAPI",
     hasLink: false,
@@ -78,11 +87,12 @@ export class ProjectsComponent implements OnInit {
     tools: [
       "Python", "Docker", "FastAPI", "VS Code", "Git", "GitHub"
     ],
-    notLast: true
+    notLast: true,
+    hasImage: false
   };
 
   public project7: project = {
-    title: "Digital Piano with C",
+    title: "Digital Piano",
     date: "November 2020 - December 2020",
     gitLink: "github.com/jtbarnett/Embedded-Systems-Projects",
     hasLink: false,
@@ -90,11 +100,26 @@ export class ProjectsComponent implements OnInit {
     tools: [
       "C", "ARM Assembly", "Keil uVision4", "Texas TM4C", "Git", "GitHub"
     ],
-    notLast: false
+    notLast: false,
+    hasImage: false
+  };
+
+  public project8: project = {
+    title: "Traffic Light Controller",
+    date: "October 2020 - November 2020",
+    gitLink: "github.com/jtbarnett/Embedded-Systems-Projects",
+    hasLink: false,
+    description: "I built a traffic light controller based on an intersection of cars traveling North/South and East/West with one pedestrian walkway. There are three sensors set up (with switches on the real board) to detect if a car is sitting at a red light or a pedestrian pressed the walk button (they have to hold for at least 2 seconds).",
+    tools: [
+      "C", "ARM Assembly", "Keil uVision4", "Texas TM4C", "Git", "GitHub"
+    ],
+    notLast: false,
+    hasImage: true,
+    image: "/assets/img/lights.png"
   };
 
   public list: project[] = [
-    this.project1, this.project2, this.project3, this.project4, this.project5, this.project6, this.project7
+    this.project1, this.project2, this.project3, this.project4, this.project5, this.project6, this.project7, this.project8
   ]
 
   constructor() { }

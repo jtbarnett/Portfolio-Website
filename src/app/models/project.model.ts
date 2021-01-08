@@ -7,4 +7,6 @@ export interface project {
     description: string;
     tools: string[];
     notLast?: boolean;
+    hasImage: boolean;
+    image?: string;
 }

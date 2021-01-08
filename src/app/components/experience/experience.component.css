@@ -150,7 +150,7 @@ hr {
     }
 
     .title {
-        font-size: 28px;
+        font-size: 26px;
     }
 
     .sub-title {
@@ -194,7 +194,7 @@ hr {
     }
 
     .title {
-        font-size: 24px;
+        font-size: 22px;
     }
 
     .sub-title {
@@ -228,14 +228,13 @@ hr {
     }
 
     .photo {
-        margin-top: 4px;
-        margin-left: 8px;
-        width: 36px;
-        height: 36px;
+        margin-left: 6px;
+        width: 30px;
+        height: 30px;
     }
 
     .title {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .sub-title {

@@ -21,7 +21,7 @@ export class ExperienceComponent implements OnInit {
       "Angular", "Node.js", "Express.js", "HTML5", "CSS3", "TypeScript", "JavaScript", "Jenkins", "Maven", "Bamboo","Jira", "Confluence", "Bitbucket", "Git", "VS Code"
     ],
     notLast: true,
-    photo: "/assets/img/crown.PNG"
+    photo: "/assets/img/crown.png"
   };
 
   public exp2: experience = {
@@ -37,7 +37,7 @@ export class ExperienceComponent implements OnInit {
       "Angular", "HTML5", "CSS3", "TypeScript", "JavaScript", "Jira", "Confluence", "Bitbucket", "Git", "Elasticsearch", "Kibana", "VS Code"
     ],
     notLast: true,
-    photo: "/assets/img/crown.PNG"
+    photo: "/assets/img/crown.png"
   };
 
   public exp3: experience = {
@@ -53,7 +53,7 @@ export class ExperienceComponent implements OnInit {
       "Python", "Visual Basic", "Oracle", "Teamcenter", "Excel", "Word", "PowerPoint", "Outlook"
     ],
     notLast: true,
-    photo: "/assets/img/emerson.PNG"
+    photo: "/assets/img/emerson.png"
   };
 
   public exp4: experience = {
@@ -69,7 +69,7 @@ export class ExperienceComponent implements OnInit {
       "None"
     ],
     notLast: false,
-    photo: "/assets/img/subway.PNG"
+    photo: "/assets/img/subway.png"
   };
 
   public list: experience[] = [

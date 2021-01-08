@@ -1,6 +1,6 @@
 .main-container {
     width: 100%;
-    height: 100%;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,6 +10,7 @@
 
 .content {
     margin-top: 90px;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,6 +19,7 @@
 
 .content-body {
     width: 720px;
+    height: fit-content;
     margin-bottom: 40px;
     border-radius: 10px;
     background-color:rgba(245, 245, 245, .8);

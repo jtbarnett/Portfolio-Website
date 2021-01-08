@@ -20,7 +20,7 @@ export class ProjectsComponent implements OnInit {
     ],
     notLast: true,
     hasImage: true,
-    image: "/assets/img/realtor1.PNG"
+    image: "/assets/img/realtor.png"
   };
 
   public project2: project = {

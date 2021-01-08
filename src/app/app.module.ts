@@ -28,7 +28,7 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [ Title ],
+  providers: [Title],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -26,14 +26,13 @@
     font-weight: bold;
     transition: all .2s ease-in-out;
     cursor: pointer;
+    border: 2px solid #f5f5f5;
 }
 
 .pill:hover {
     transform: scale(1.05);
-    background: none;
-    -webkit-box-shadow: 0 0 10px 2px rgba(33, 33, 33, 1);
-    -moz-box-shadow: 0 0 10px 2px rgba(33, 33, 33, 1);
-    box-shadow: 0 0 10px 2px rgba(33, 33, 33, 1);
+    background-color: #f5f5f5;
+    color: #313133;
 }
 
 .pill:focus {

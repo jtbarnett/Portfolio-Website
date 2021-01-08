@@ -26,7 +26,7 @@
 .card {
     width: 336px;
     height: 320px;
-    background-color:rgba(245, 245, 245, .8);
+    background-color:rgba(245, 245, 245, .9);
     transition: all .2s ease-in-out;
     overflow: hidden;
     border-radius: 10px;
@@ -82,6 +82,9 @@
     border-radius: 50%;
     transition: all .4s ease-in-out;
     transform: translateX(255px);
+    -webkit-box-shadow: 0 0 10px 2px rgba(33, 33, 33, .2);
+    -moz-box-shadow: 0 0 10px 2px rgba(33, 33, 33, .2);
+    box-shadow: 0 0 10px 2px rgba(33, 33, 33, .2);
 }
 
 .card1-5:hover .photo {
@@ -131,13 +134,13 @@
     cursor: pointer;
     color: #f5f5f5;
     transition: all .2s ease-in-out;
-    -webkit-box-shadow: 0 0 10px 2px rgba(33, 33, 33, .9);
-    -moz-box-shadow: 0 0 10px 2px rgba(33, 33, 33, .9);
-    box-shadow: 0 0 10px 2px rgba(33, 33, 33, .9);
+    border: 2px solid #f5f5f5;
 }
 
 .links:hover {
     transform: scale(1.04);
+    background-color: #f5f5f5;
+    color: #313133;
 }
 
 .card6 {
@@ -191,7 +194,7 @@
     font-weight: bold;
     text-align: center;
     color:#313133;
-    background-color:rgba(245, 245, 245, .8);
+    background-color:rgba(245, 245, 245, .9);
     padding: 0 130px;
     border-radius: 50px;
     text-align: center;
@@ -223,7 +226,7 @@
     border-radius: 30px;
     text-align: center;
     color: #f5f5f5;
-    background-color: #313133;
+    background-color:rgba(49, 49, 51, .9);
     font-size: 32px;
     font-weight: bold;
     transition: all .2s ease-in-out;
@@ -327,7 +330,7 @@
 @media(max-width: 500px) {
     .body1-header {
         font-size: 30px;
-        padding: 0 41px;
+        padding: 0 40px;
     }
 
     .pill {

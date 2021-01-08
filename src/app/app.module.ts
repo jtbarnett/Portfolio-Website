@@ -10,6 +10,7 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { AboutMeComponent } from './components/about-me/about-me.component';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { IconsComponent } from './components/icons/icons.component';
+import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { IconsComponent } from './components/icons/icons.component';
     ProjectsComponent,
     AboutMeComponent,
     ExperienceComponent,
-    IconsComponent
+    IconsComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,

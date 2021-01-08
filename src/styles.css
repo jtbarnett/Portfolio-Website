@@ -1,14 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 
 /*
-    dark grey
-    #222629
-    medium
-    #474b4f
-
-    lighter black
-    #0e1111
-
     white
     #f5f5f5
 
@@ -27,7 +19,7 @@ html, body {
     margin: 0;
     padding: 0;
     overflow: auto;
-    background: #f5f5f5;
+    background: #313133;
     background-image: url(/assets/img/abstract.jpg);
     background-position: center center;
     background-repeat: no-repeat;

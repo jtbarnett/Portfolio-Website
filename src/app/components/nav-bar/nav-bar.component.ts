@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { ActiveService } from '../../services/active.service';
 
 @Component({
   selector: 'app-nav-bar',
@@ -8,32 +8,28 @@ import { Router } from '@angular/router';
 })
 export class NavBarComponent implements OnInit {
 
-  constructor(private router: Router) { }
+  constructor(private active: ActiveService) { }
 
   output: string = null;
   id: string = null;
 
   ngOnInit(): void {
-    this.router.events.subscribe(async () => {
-      this.output = this.router.url;
-      if (this.output != null) {
-        if (this.output == '/about-me') {
-          this.id = 'about';
-        }
-        else if (this.output == '/experience') {
-          this.id = 'experience';
-        }
-        else if (this.output == '/projects') {
-          this.id = 'projects';
-        }
-        else {
-          this.id = 'contact';
-        }
-      }
+    this.output = this.active.getTab();
 
-      document.getElementById(this.id).style.backgroundColor = '#f5f5f5';
-      document.getElementById(this.id).style.color = '#313133';
-    });
+    if (this.output == '/about-me') {
+      this.id = 'about';
+    }
+    else if (this.output == '/experience') {
+      this.id = 'experience';
+    }
+    else if (this.output == '/projects') {
+      this.id = 'projects';
+    }
+    else if (this.output == '/contact') {
+      this.id = 'contact';
+    }
+
+    document.getElementById(this.id).style.backgroundColor = '#f5f5f5';
+    document.getElementById(this.id).style.color = '#313133';
   }
-
 }

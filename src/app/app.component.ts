@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { Router, NavigationEnd, ActivatedRoute } from '@angular/router';
 import { filter, map } from 'rxjs/operators';
+import { ActiveService } from './services/active.service';
 
 @Component({
   selector: 'app-root',
@@ -10,11 +11,16 @@ import { filter, map } from 'rxjs/operators';
 })
 export class AppComponent implements OnInit {
 
-  constructor(private titleService: Title, private router: Router, private activatedRoute: ActivatedRoute) {}
+  constructor(private titleService: Title, private router: Router, private activatedRoute: ActivatedRoute, private active: ActiveService) {}
 
   ngOnInit() {
     const title = 'title';
     const appTitle = this.titleService.getTitle();
+    
+    this.router.events.subscribe(() => {
+      this.active.setTab(this.router.url);
+    });
+
     this.router
       .events.pipe(
         filter(event => event instanceof NavigationEnd),

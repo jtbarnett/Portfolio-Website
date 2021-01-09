@@ -11,6 +11,7 @@ import { AboutMeComponent } from './components/about-me/about-me.component';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { IconsComponent } from './components/icons/icons.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
+import { ActiveService } from './services/active.service'
 
 @NgModule({
   declarations: [
@@ -28,7 +29,7 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [Title],
+  providers: [ActiveService, Title],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

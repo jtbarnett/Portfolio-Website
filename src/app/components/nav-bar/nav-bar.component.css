@@ -37,6 +37,13 @@
 
 .pill:focus {
     outline: none;
+    background-color: #f5f5f5;
+    color: #313133;
+}
+
+.pill:active {
+    background-color: #f5f5f5;
+    color: #313133;
 }
 
 @media(max-width: 780px) {

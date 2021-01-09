@@ -100,7 +100,7 @@ export class ProjectsComponent implements OnInit {
     tools: [
       "C", "ARM Assembly", "Keil uVision4", "Texas TM4C", "Git", "GitHub"
     ],
-    notLast: false,
+    notLast: true,
     hasImage: false
   };
 

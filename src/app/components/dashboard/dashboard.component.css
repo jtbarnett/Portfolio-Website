@@ -40,12 +40,6 @@
     transform: scale(1.1);
 }
 
-.card:focus {
-    outline: none;
-    background-color:rgba(49, 49, 51, .9);
-    transform: scale(1.1);
-}
-
 .card-mid {
     margin: 0 60px;
 }
@@ -108,21 +102,6 @@
     transform: translateY(0);
 }
 
-.card1-5:focus .photo {
-    transition-delay: .2s;
-    transform: translateX(0);
-}
-
-.card1-5:focus .card-header {
-    color: #313133;
-    background-color: #f5f5f5;
-    transform: translateY(0);
-}
-
-.card1-5:focus .card-text {
-    transform: translateY(0);
-}
-
 .font-awesome-link {
     margin-top: 6px;
     color: #f5f5f5;
@@ -136,10 +115,6 @@
 }
 
 .card1-5:hover .font-awesome-link {
-    transform: translateY(0);
-}
-
-.card1-5:focus .font-awesome-link {
     transform: translateY(0);
 }
 
@@ -163,18 +138,6 @@
 }
 
 .links:hover {
-    transform: scale(1.04);
-    background-color: #f5f5f5;
-    color: #313133;
-}
-
-.links:focus {
-    transform: scale(1.04);
-    background-color: #f5f5f5;
-    color: #313133;
-}
-
-.links:active {
     transform: scale(1.04);
     background-color: #f5f5f5;
     color: #313133;
@@ -212,18 +175,6 @@
 }
 
 .card6:hover .card6-right {
-    transform: translateX(0);
-}
-
-.card6:focus .card6-left .b {
-    color: #f5f5f5;
-}
-
-.card6:focus .card6-left {
-    transform: translateX(0);
-}
-
-.card6:focus .card6-right {
     transform: translateX(0);
 }
 
@@ -301,6 +252,57 @@
     box-shadow: 0 0 10px 2px rgba(33, 33, 33, .9);
 }
 
+@media screen and (max-width: 1366px) {
+    .card:focus {
+        outline: none;
+        background-color:rgba(49, 49, 51, .9);
+        transform: scale(1.1);
+    }
+
+    .card1-5:focus .photo {
+        transition-delay: .2s;
+        transform: translateX(0);
+    }
+    
+    .card1-5:focus .card-header {
+        color: #313133;
+        background-color: #f5f5f5;
+        transform: translateY(0);
+    }
+    
+    .card1-5:focus .card-text {
+        transform: translateY(0);
+    }
+
+    .card1-5:focus .font-awesome-link {
+        transform: translateY(0);
+    }
+
+    .links:focus {
+        transform: scale(1.04);
+        background-color: #f5f5f5;
+        color: #313133;
+    }
+    
+    .links:active {
+        transform: scale(1.04);
+        background-color: #f5f5f5;
+        color: #313133;
+    }
+
+    .card6:focus .card6-left .b {
+        color: #f5f5f5;
+    }
+    
+    .card6:focus .card6-left {
+        transform: translateX(0);
+    }
+    
+    .card6:focus .card6-right {
+        transform: translateX(0);
+    }
+}
+
 @media screen and (max-width: 1160px), screen and (max-height: 780px) {
     .card {
         width: 280px;
@@ -324,7 +326,7 @@
     
     .card-text {
         padding: 4px 10px;
-        font-size: 14px;
+        font-size: 13px;
         font-weight: bold;
         transform: translateY(220px);
     }
@@ -356,7 +358,7 @@
         padding: 0 8px;
         border-radius: 25px;
         text-align: left;
-        font-size: 12px;
+        font-size: 11px;
     }
 }
 

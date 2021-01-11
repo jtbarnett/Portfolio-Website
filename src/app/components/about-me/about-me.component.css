@@ -36,10 +36,10 @@
     margin-top: 25px;
     width: 127px;
     height: 137px;
-    border-radius: 25px;
-    -webkit-box-shadow: 0 0 10px 2px rgba(33, 33, 33, .2);
-    -moz-box-shadow: 0 0 10px 2px rgba(33, 33, 33, .2);
-    box-shadow: 0 0 10px 2px rgba(33, 33, 33, .2);
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 10px 2px rgba(33, 33, 33, .4);
+    -moz-box-shadow: 0 0 10px 2px rgba(33, 33, 33, .4);
+    box-shadow: 0 0 10px 2px rgba(33, 33, 33, .4);
 }
 
 .body1 {

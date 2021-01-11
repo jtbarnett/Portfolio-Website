@@ -396,7 +396,7 @@
     }
 }
 
-@media(min-height: 595px) {
+@media(max-height: 595px) {
     .body1 {
         height: fit-content;
     }

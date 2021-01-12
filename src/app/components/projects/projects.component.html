@@ -15,6 +15,13 @@
                         <div class="row-text">{{ project.projectLink }}</div>
                         <i class="fas fa-external-link-alt" (click)="navWeb(project?.projectLink)"></i>
                     </div>
+                    <div class="row sub-title-download" *ngIf="project.hasDownload">
+                        <div>Download: </div>
+                        <a class="row download" href="{{ project.downloadLink }}" download>
+                            <div class="download-text">{{ project.downloadText }}</div>
+                            <i class="fas fa-file-download"></i>
+                        </a>
+                    </div>
                 </div>
 
                 <div class="description-container">

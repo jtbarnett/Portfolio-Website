@@ -20,7 +20,8 @@ export class ProjectsComponent implements OnInit {
     ],
     notLast: true,
     hasImage: true,
-    image: "/assets/img/realtor.png"
+    image: "/assets/img/realtor.png",
+    hasDownload: false
   };
 
   public project2: project = {
@@ -34,7 +35,10 @@ export class ProjectsComponent implements OnInit {
     ],
     notLast: true,
     hasImage: true,
-    image: "/assets/img/minesweeper.png"
+    image: "/assets/img/minesweeper.png",
+    hasDownload: true,
+    downloadLink: "/assets/downloads/minesweeper1.0.exe",
+    downloadText: "minesweeper1.0.exe"
   };
 
   public project3: project = {
@@ -48,7 +52,10 @@ export class ProjectsComponent implements OnInit {
     ],
     notLast: true,
     hasImage: true,
-    image: "/assets/img/snake.png"
+    image: "/assets/img/snake.png",
+    hasDownload: true,
+    downloadLink: "/assets/downloads/snakegame1.0.exe",
+    downloadText: "snakegame1.0.exe"
   };
 
   public project4: project = {
@@ -61,7 +68,8 @@ export class ProjectsComponent implements OnInit {
       "Python", "Docker", "VS Code", "Git", "GitHub"
     ],
     notLast: true,
-    hasImage: false
+    hasImage: false,
+    hasDownload: false
   };
 
   public project5: project = {
@@ -75,7 +83,8 @@ export class ProjectsComponent implements OnInit {
     ],
     notLast: true,
     hasImage: true,
-    image: "/assets/img/texture.png"
+    image: "/assets/img/texture.png",
+    hasDownload: false
   };
 
   public project6: project = {
@@ -88,7 +97,8 @@ export class ProjectsComponent implements OnInit {
       "Python", "Docker", "FastAPI", "VS Code", "Git", "GitHub"
     ],
     notLast: true,
-    hasImage: false
+    hasImage: false,
+    hasDownload: false
   };
 
   public project7: project = {
@@ -101,7 +111,8 @@ export class ProjectsComponent implements OnInit {
       "C", "ARM Assembly", "Keil uVision4", "Texas TM4C", "Git", "GitHub"
     ],
     notLast: true,
-    hasImage: false
+    hasImage: false,
+    hasDownload: false
   };
 
   public project8: project = {
@@ -115,7 +126,8 @@ export class ProjectsComponent implements OnInit {
     ],
     notLast: false,
     hasImage: true,
-    image: "/assets/img/lights.png"
+    image: "/assets/img/lights.png",
+    hasDownload: false
   };
 
   public list: project[] = [

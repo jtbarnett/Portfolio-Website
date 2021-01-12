@@ -9,4 +9,7 @@ export interface project {
     notLast?: boolean;
     hasImage: boolean;
     image?: string;
+    hasDownload: boolean;
+    downloadLink?: string;
+    downloadText?: string;
 }

@@ -50,7 +50,7 @@ export class ExperienceComponent implements OnInit {
     string3: "• Utilized Minitab to analyze New Product Development testing",
     string4: "• Constructed presentations on team projects to present to engineering groups",
     tools: [
-      "Python", "Visual Basic", "Oracle", "Teamcenter", "Excel", "Word", "PowerPoint", "Outlook"
+      "Python", "Visual Basic", "Oracle", "SQL", "Oracel SQL Developer", "Teamcenter", "Microsoft Office", "Excel", "Word", "PowerPoint", "Outlook"
     ],
     notLast: true,
     photo: "/assets/img/emerson.png"

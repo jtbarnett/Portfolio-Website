@@ -175,6 +175,10 @@ hr {
     .skill-list {
         font-size: 16px;
     }
+
+    .location-text {
+        margin-top: -8px;
+    }
 }
 
 @media(max-width: 550px) {
@@ -218,6 +222,10 @@ hr {
     .skill-list {
         font-size: 14px;
     }
+
+    .location-text {
+        margin-top: -6px;
+    }
 }
 
 @media(max-width: 450px) {
@@ -258,5 +266,9 @@ hr {
 
     .skill-list {
         font-size: 12px;
+    }
+
+    .location-text {
+        margin-top: -2px;
     }
 }

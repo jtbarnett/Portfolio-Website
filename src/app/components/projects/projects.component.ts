@@ -16,7 +16,7 @@ export class ProjectsComponent implements OnInit {
     projectLink: "realtorjohnbarnett.com",
     description: "I developed this SPA (single page application) with Angular CLI version 8.3.23 and later updated it to version 10.0.3. I properly set up the domain, hosting, and SSL/TLS certificates.",
     tools: [
-      "Angular", "Node.js", "HTML5", "CSS3", "TypeScript", "JavaScript", "AWS", "S3", "CloudFront", "Route 53", "Git", "GitHub", "VS Code", "Karma", "PayPal APIs"
+      "Angular", "Node.js", "HTML5", "CSS3", "TypeScript", "JavaScript", "AWS", "S3", "CloudFront", "Route 53", "Git", "GitHub", "VS Code", "Karma", "Jasmine", "PayPal APIs"
     ],
     notLast: true,
     hasImage: true,

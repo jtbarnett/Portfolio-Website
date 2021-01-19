@@ -16,7 +16,7 @@ export class ExperienceComponent implements OnInit {
     string1: "• Developed company image gallery application with Angular/Node.js",
     string2: "• Interfaced with Express framework to retrieve images from REST API",
     string3: "• Wrote and implemented Unit and Integration Tests for software modules",
-    string4: "• Configured build options for project deployment and conducted CI/CD",
+    string4: "• Configured build options with Bamboo, Jenkins, and Maven for CI/CD",
     tools: [
       "Angular", "Node.js", "Express.js", "HTML5", "CSS3", "TypeScript", "JavaScript", "Jenkins", "Maven", "Bamboo","Jira", "Confluence", "Bitbucket", "Git", "VS Code"
     ],

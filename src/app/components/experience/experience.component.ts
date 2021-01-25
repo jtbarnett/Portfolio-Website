@@ -14,9 +14,9 @@ export class ExperienceComponent implements OnInit {
     date: "May 2020 - August 2020",
     location: "New Bremen, Ohio, United States",
     string1: "• Developed company image gallery application with Angular/Node.js",
-    string2: "• Interfaced with Express framework to retrieve images from REST API",
-    string3: "• Wrote and implemented Unit and Integration Tests for software modules",
-    string4: "• Configured build options with Bamboo, Jenkins, and Maven for CI/CD",
+    string2: "• Wrote and implemented Unit and Integration Tests for software modules",
+    string3: "• Configured build options with Bamboo, Jenkins, and Maven for CI/CD",
+    string4: "• Performed UI/UX quality assurance reviews and wrote markdowns",
     tools: [
       "Angular", "Node.js", "Express.js", "HTML5", "CSS3", "TypeScript", "JavaScript", "Jenkins", "Maven", "Bamboo","Jira", "Confluence", "Bitbucket", "Git", "VS Code"
     ],
@@ -30,9 +30,9 @@ export class ExperienceComponent implements OnInit {
     date: "January 2020 - April 2020",
     location: "New Bremen, Ohio, United States",
     string1: "• Developed service dashboard application with Angular/TypeScript",
-    string2: "• Interfaced with REST API frameworks using JSON and Angular",
+    string2: "• Interfaced with REST APIs using Angular, Express.js, and Node.js",
     string3: "• Reviewed developer code and managed repositories with Jira and Bitbucket",
-    string4: "• Performed UI/UX quality assurance reviews and wrote markdowns",
+    string4: "• Participated in scrum meetings with software development team",
     tools: [
       "Angular", "HTML5", "CSS3", "TypeScript", "JavaScript", "Jira", "Confluence", "Bitbucket", "Git", "Elasticsearch", "Kibana", "VS Code"
     ],

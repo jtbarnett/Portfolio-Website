@@ -8,7 +8,23 @@ import { project } from 'src/app/models/project.model';
 })
 export class ProjectsComponent implements OnInit {
 
-  public project1: project = {
+  public aslApp: project = {
+    title: "Angular ASL Virtual Game",
+    date: "January 2021 - March 2021",
+    gitLink: "Built in Private GitHub Organization",
+    noGitLink: true,
+    hasLink: false,
+    description: "I developed an American Sign Language (ASL) virtual game in Angular in a team of 4 students for a Senior Design project with Angular CLI version 10.0.3. You are able to play locally, host a game, or join an existing game by room code. The backend is set up with Node.js, Express, Socket.IO (client to client communication), and MongoDB (Sign Language images and videos). The application is deployed for testing on AWS and the server is hosted on an EC2 instance.",
+    tools: [
+      "Angular", "Node.js", "Express.js", "Socket.IO", "MongoDB", "HTML5", "CSS3", "TypeScript", "JavaScript", "AWS", "S3", "CloudFront", "Route 53", "EC2 Server", "Git", "GitHub", "VS Code", "Karma", "Jasmine"
+    ],
+    notLast: true,
+    hasImage: true,
+    image: "/assets/img/asl.png",
+    hasDownload: false
+  };
+
+  public realtorWebsite: project = {
     title: "Angular Realtor Website",
     date: "March 2020 - July 2020",
     gitLink: "github.com/jtbarnett/RealtorJohnBarnett",
@@ -24,7 +40,7 @@ export class ProjectsComponent implements OnInit {
     hasDownload: false
   };
 
-  public project2: project = {
+  public minesweeper: project = {
     title: "Java Minesweeper Game",
     date: "October 2020 - December 2020",
     gitLink: "github.com/jtbarnett/Java-Minesweeper",
@@ -41,7 +57,7 @@ export class ProjectsComponent implements OnInit {
     downloadText: "minesweeper1.0.exe"
   };
 
-  public project3: project = {
+  public snakeGame: project = {
     title: "Python Snake Game",
     date: "July 2020 - September 2020",
     gitLink: "github.com/jtbarnett/Python-SnakeGame",
@@ -58,7 +74,22 @@ export class ProjectsComponent implements OnInit {
     downloadText: "snakegame1.0.exe"
   };
 
-  public project4: project = {
+  public airline: project = {
+    title: "C# Airline Reservation System",
+    date: "January 2021 - March 2021",
+    gitLink: "Built in Private GitHub Organization",
+    noGitLink: true,
+    hasLink: false,
+    description: "Airline Reservation System built with C# and .Net Core version 3.1. Utilized Windows Forms for the GUI, backend was built with C#, and Microsoft SQL Server utlized for the relational database. This project was built in a team of 3 students for a Software Engineering course.",
+    tools: [
+      "C#", ".Net", ".Net Core", "WinForms", "SQL Server", "Visual Studio 2019", "Git", "GitHub"
+    ],
+    notLast: true,
+    hasImage: false,
+    hasDownload: false
+  };
+
+  public webScraper: project = {
     title: "Python/Docker Web Scraper",
     date: "December 2020 - January 2021",
     gitLink: "github.com/jtbarnett/PythonWebScraping",
@@ -72,7 +103,7 @@ export class ProjectsComponent implements OnInit {
     hasDownload: false
   };
 
-  public project5: project = {
+  public textureMapping: project = {
     title: "C++/OpenGL Texture Mapping",
     date: "October 2020 - December 2020",
     gitLink: "github.com/jtbarnett/EECS4530",
@@ -87,7 +118,7 @@ export class ProjectsComponent implements OnInit {
     hasDownload: false
   };
 
-  public project6: project = {
+  public fastAPI: project = {
     title: "Docker/FastAPI Web App",
     date: "December 2020 - January 2021",
     gitLink: "github.com/jtbarnett/Docker-FastAPI",
@@ -101,7 +132,7 @@ export class ProjectsComponent implements OnInit {
     hasDownload: false
   };
 
-  public project7: project = {
+  public digitalPiano: project = {
     title: "Digital Piano",
     date: "November 2020 - December 2020",
     gitLink: "github.com/jtbarnett/Embedded-Systems-Projects",
@@ -115,7 +146,7 @@ export class ProjectsComponent implements OnInit {
     hasDownload: false
   };
 
-  public project8: project = {
+  public trafficLight: project = {
     title: "Traffic Light Controller",
     date: "October 2020 - November 2020",
     gitLink: "github.com/jtbarnett/Embedded-Systems-Projects",
@@ -131,7 +162,7 @@ export class ProjectsComponent implements OnInit {
   };
 
   public list: project[] = [
-    this.project1, this.project2, this.project3, this.project4, this.project5, this.project6, this.project7, this.project8
+    this.aslApp, this.realtorWebsite, this.minesweeper, this.snakeGame, this.airline, this.webScraper, this.textureMapping, this.fastAPI, this.digitalPiano, this.trafficLight
   ]
 
   constructor() { }

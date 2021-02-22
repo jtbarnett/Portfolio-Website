@@ -18,7 +18,7 @@ export class ExperienceComponent implements OnInit {
     string3: "• Configured build options with Bamboo, Jenkins, and Maven for CI/CD",
     string4: "• Performed UI/UX quality assurance reviews and wrote markdowns",
     tools: [
-      "Angular", "Node.js", "Express.js", "HTML5", "CSS3", "TypeScript", "JavaScript", "Jenkins", "Maven", "Bamboo","Jira", "Confluence", "Bitbucket", "Git", "VS Code"
+      "Angular", "Node.js", "Express.js", "HTML5", "CSS3", "TypeScript", "JavaScript", "MongoDB", "Docker", "OpenShift", "Jenkins", "Maven", "Bamboo","Jira", "Confluence", "Bitbucket", "Git", "VS Code"
     ],
     notLast: true,
     photo: "/assets/img/crown.png"

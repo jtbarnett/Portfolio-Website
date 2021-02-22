@@ -9,7 +9,7 @@
                     <div class="sub-title">{{ project.date }}</div>
                     <div class="row sub-title">
                         <div class="row-text">{{ project.gitLink }}</div>
-                        <i class="fas fa-external-link-alt" (click)="navWeb(project?.gitLink)"></i>
+                        <i class="fas fa-external-link-alt" *ngIf="!project.noGitLink" (click)="navWeb(project?.gitLink)"></i>
                     </div>
                     <div class="row sub-title" *ngIf="project.hasLink">
                         <div class="row-text">{{ project.projectLink }}</div>

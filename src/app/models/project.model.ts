@@ -2,6 +2,7 @@ export interface project {
     title: string;
     date: string;
     gitLink: string;
+    noGitLink?: boolean;
     hasLink: boolean;
     projectLink?: string;
     description: string;

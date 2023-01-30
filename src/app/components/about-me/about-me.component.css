@@ -34,7 +34,7 @@
 
 .photo {
     margin-top: 25px;
-    width: 127px;
+    width: 200px;
     height: 137px;
     border-radius: 10px;
     -webkit-box-shadow: 0 0 10px 2px rgba(33, 33, 33, .4);
@@ -79,8 +79,11 @@
 }
 
 .body-text {
-    margin-top: 15px;
     font-size: 22px;
+}
+
+.bot {
+    margin-top: 15px;
 }
 
 @media(max-width: 780px) {

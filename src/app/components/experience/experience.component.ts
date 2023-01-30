@@ -9,6 +9,22 @@ import { experience } from 'src/app/models/experience.model';
 export class ExperienceComponent implements OnInit {
 
   public exp1: experience = {
+    jobTitle: "Software Engineer",
+    company: "Neudesic",
+    date: "May 2021 - Present",
+    location: "Columbus, Ohio, United States",
+    string1: "• Developed live streaming web app with React, C# and Azure",
+    string2: "• Developed features for business app with Angular, .Net 5 and Azure",
+    string3: "• Implemented CI/CD workflows with Github Actions and Azure DevOps",
+    string4: "• Wrote IaC scripts for resource deployment in both AWS and Azure",
+    tools: [
+      "Angular", "Node.js", "Express.js", "HTML5", "CSS3", "TypeScript", "JavaScript", ".NET 5", "C#", "SQL", "Postman", "Docker", "AWS", "Azure", "Terraform", "Kubernetes"
+    ],
+    notLast: true,
+    photo: "/assets/img/neudesic.png"
+  };
+
+  public exp2: experience = {
     jobTitle: "Software Engineer Co-op",
     company: "Crown Equipment Corporation",
     date: "May 2020 - August 2020",
@@ -18,13 +34,13 @@ export class ExperienceComponent implements OnInit {
     string3: "• Configured build options with Bamboo, Jenkins, and Maven for CI/CD",
     string4: "• Performed UI/UX quality assurance reviews and wrote markdowns",
     tools: [
-      "Angular", "Node.js", "Express.js", "HTML5", "CSS3", "TypeScript", "JavaScript", "MongoDB", "Docker", "OpenShift", "Jenkins", "Maven", "Bamboo","Jira", "Confluence", "Bitbucket", "Git", "VS Code"
+      "Angular", "Node.js", "Express.js", "HTML5", "CSS3", "TypeScript", "JavaScript", "MongoDB", "Docker", "OpenShift", "Jenkins", "Maven", "Bamboo", "Jira", "Confluence", "Bitbucket", "Git", "VS Code"
     ],
     notLast: true,
     photo: "/assets/img/crown.png"
   };
 
-  public exp2: experience = {
+  public exp3: experience = {
     jobTitle: "Software Engineer Co-op",
     company: "Crown Equipment Corporation",
     date: "January 2020 - April 2020",
@@ -40,7 +56,7 @@ export class ExperienceComponent implements OnInit {
     photo: "/assets/img/crown.png"
   };
 
-  public exp3: experience = {
+  public exp4: experience = {
     jobTitle: "Systems Engineer Co-op",
     company: "Emerson",
     date: "January 2018 - June 2018",
@@ -56,7 +72,7 @@ export class ExperienceComponent implements OnInit {
     photo: "/assets/img/emerson.png"
   };
 
-  public exp4: experience = {
+  public exp5: experience = {
     jobTitle: "Shift Manager",
     company: "Subway",
     date: "April 2018 - August 2016",
@@ -73,7 +89,7 @@ export class ExperienceComponent implements OnInit {
   };
 
   public list: experience[] = [
-    this.exp1, this.exp2, this.exp3, this.exp4
+    this.exp1, this.exp2, this.exp3, this.exp4, this.exp5
   ]
 
   constructor() { }

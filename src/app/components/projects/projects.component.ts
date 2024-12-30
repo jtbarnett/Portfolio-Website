@@ -13,9 +13,9 @@ export class ProjectsComponent implements OnInit {
     date: "January 2021 - March 2021",
     gitLink: "github.com/jtbarnett/ASL-Application",
     hasLink: false,
-    description: "I developed an American Sign Language (ASL) virtual game in Angular for a Senior Design project with Angular CLI version 10.0.3. You are able to play locally, host a game, or join an existing game by room code. The backend is set up with Node.js, Express, Socket.IO (client to client communication), and MongoDB (Sign Language images and videos). The application is deployed for testing on AWS and the server is hosted on an EC2 instance.",
+    description: "I developed an American Sign Language (ASL) virtual game in Angular for a Senior Design project with Angular CLI version 10.0.3. You are able to play locally, host a game, or join an existing game by room code. The backend is set up with Node.js, Express.js, Socket.IO (client to client communication), and AWS S3 (Sign Language images and videos). The application is deployed on AWS and the server is hosted on an EC2 instance.",
     tools: [
-      "Angular", "Node.js", "Express.js", "Socket.IO", "MongoDB", "HTML5", "CSS3", "TypeScript", "JavaScript", "AWS", "S3", "CloudFront", "Route 53", "EC2 Server", "Git", "GitHub", "VS Code", "Karma", "Jasmine"
+      "Angular", "Node.js", "Express.js", "Socket.IO", "HTML5", "CSS3", "TypeScript", "JavaScript", "AWS", "S3", "CloudFront", "Route 53", "EC2 Server", "Git", "GitHub", "VS Code", "Karma", "Jasmine"
     ],
     notLast: true,
     hasImage: true,

@@ -11,10 +11,9 @@ export class ProjectsComponent implements OnInit {
   public aslApp: project = {
     title: "Angular ASL Virtual Game",
     date: "January 2021 - March 2021",
-    gitLink: "Built in Private GitHub Organization",
-    noGitLink: true,
+    gitLink: "github.com/jtbarnett/ASL-Application",
     hasLink: false,
-    description: "I developed an American Sign Language (ASL) virtual game in Angular in a team of 4 students for a Senior Design project with Angular CLI version 10.0.3. You are able to play locally, host a game, or join an existing game by room code. The backend is set up with Node.js, Express, Socket.IO (client to client communication), and MongoDB (Sign Language images and videos). The application is deployed for testing on AWS and the server is hosted on an EC2 instance.",
+    description: "I developed an American Sign Language (ASL) virtual game in Angular for a Senior Design project with Angular CLI version 10.0.3. You are able to play locally, host a game, or join an existing game by room code. The backend is set up with Node.js, Express, Socket.IO (client to client communication), and MongoDB (Sign Language images and videos). The application is deployed for testing on AWS and the server is hosted on an EC2 instance.",
     tools: [
       "Angular", "Node.js", "Express.js", "Socket.IO", "MongoDB", "HTML5", "CSS3", "TypeScript", "JavaScript", "AWS", "S3", "CloudFront", "Route 53", "EC2 Server", "Git", "GitHub", "VS Code", "Karma", "Jasmine"
     ],
@@ -80,7 +79,7 @@ export class ProjectsComponent implements OnInit {
     gitLink: "Built in Private GitHub Organization",
     noGitLink: true,
     hasLink: false,
-    description: "Airline Reservation System built with C# and .Net Core version 3.1. Utilized Windows Forms for the GUI, backend was built with C#, and Microsoft SQL Server utlized for the relational database. This project was built in a team of 3 students for a Software Engineering course.",
+    description: "Airline Reservation System built with C# and .Net Core version 3.1. Utilized Windows Forms for the GUI, backend was built with C#, and Microsoft SQL Server utlized for the relational database. This project was built for a Software Engineering course.",
     tools: [
       "C#", ".Net", ".Net Core", "WinForms", "SQL Server", "Visual Studio 2019", "Git", "GitHub"
     ],

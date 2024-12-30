@@ -10,8 +10,24 @@ export class ExperienceComponent implements OnInit {
 
   public exp1: experience = {
     jobTitle: "Software Engineer",
+    company: "TherapyNotes",
+    date: "May 2023 - Present",
+    location: "Anna, Ohio, United States",
+    string1: "• Improved user satisfaction by 25% by leading architecture design and development for integrating interactive patient assessment results into patient EHRs using React, ASP.NET Core, and PostgreSQL",
+    string2: "• Reduced technical debt by creating modular components in React and Angular with TypeScript",
+    string3: "• Enhanced scalability and maintainability by modernizing a legacy monolithic codebase to align with Service-Oriented Architecture (SOA) principles",
+    string4: "• Drove technical discussions, contributing to architecture decisions and ensuring robust design patterns for mission-critical software",
+    tools: [
+      "React", "Angular", "TypeScript", "JavaScript", "HTML5", "CSS3", "ASP.NET", ".NET", "C#", "PostgreSQL", "SQL", "Postman", "Docker", "AWS", "Jenkins", "Octopus"
+    ],
+    notLast: true,
+    photo: "/assets/img/therapynotes.png"
+  };
+
+  public exp2: experience = {
+    jobTitle: "Software Engineer",
     company: "Neudesic",
-    date: "May 2021 - Present",
+    date: "May 2021 - May 2023",
     location: "Columbus, Ohio, United States",
     string1: "• Developed live streaming web app with React, C# and Azure",
     string2: "• Developed features for business app with Angular, .Net 5 and Azure",
@@ -24,7 +40,7 @@ export class ExperienceComponent implements OnInit {
     photo: "/assets/img/neudesic.png"
   };
 
-  public exp2: experience = {
+  public exp3: experience = {
     jobTitle: "Software Engineer Co-op",
     company: "Crown Equipment Corporation",
     date: "May 2020 - August 2020",
@@ -40,7 +56,7 @@ export class ExperienceComponent implements OnInit {
     photo: "/assets/img/crown.png"
   };
 
-  public exp3: experience = {
+  public exp4: experience = {
     jobTitle: "Software Engineer Co-op",
     company: "Crown Equipment Corporation",
     date: "January 2020 - April 2020",
@@ -56,7 +72,7 @@ export class ExperienceComponent implements OnInit {
     photo: "/assets/img/crown.png"
   };
 
-  public exp4: experience = {
+  public exp5: experience = {
     jobTitle: "Systems Engineer Co-op",
     company: "Emerson",
     date: "January 2018 - June 2018",
@@ -72,7 +88,7 @@ export class ExperienceComponent implements OnInit {
     photo: "/assets/img/emerson.png"
   };
 
-  public exp5: experience = {
+  public exp6: experience = {
     jobTitle: "Shift Manager",
     company: "Subway",
     date: "April 2018 - August 2016",
@@ -89,7 +105,7 @@ export class ExperienceComponent implements OnInit {
   };
 
   public list: experience[] = [
-    this.exp1, this.exp2, this.exp3, this.exp4, this.exp5
+    this.exp1, this.exp2, this.exp3, this.exp4, this.exp5, this.exp6
   ]
 
   constructor() { }
